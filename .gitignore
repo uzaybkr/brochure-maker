@@ -1,0 +1,19 @@
+# Environment and secrets – do not commit
+.env
+.env.local
+*.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
